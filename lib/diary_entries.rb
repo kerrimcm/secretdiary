@@ -13,3 +13,5 @@ class DiaryEntries
     raise 'Diary is locked' if @diary_lock.locked?
   end
 end 
+
+hello
